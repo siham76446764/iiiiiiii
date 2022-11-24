@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 16vh;
+    background-color: rgb(255, 164, 44);
+    margin-top: 8px;
+}
+.head{
+    width: 100%;
+    height: 16vh;
+    display: flex;
+    flex-direction: row;
+}
+.headerleft{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+    font-size: larger;
+    align-items: center;
+}
+.headeright{
+    width: 30%;
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   justify-content: space-between;
+}
+.divnav{
+    width: 40%;
+    height: 16vh;
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-family: 'Cairo', sans-serif;
+    font-size: 10px;
+    display: inline-block;
+
+}
+.logoimg{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    float: right;
+    
+}
+h2{
+    font-family: 'Cairo', sans-serif;
+    
+}
+.h22{
+    float: left;
+ padding-left: 12px;
+
+}
+.divnav:hover{
+    background-color: rgb(255, 243, 140);
+    color: rgb(255, 89, 89);
+}
+
+.main{
+    width: 100%;
+    height: 400px;
+    margin-top: 3px;
+    display: flex;
+    flex-direction: row;
+  
+  
+}
+
+
+.mainleft{
+    width: 30%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+    justify-content: center;
+}
+
+.mainicon{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.phpimg{   
+    height: 200px;
+    width: 350px;
+
+}
+.icon{
+    height: 7vh;
+    width: 7vh;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 30px;
+    border-bottom: 2px solid rgb(255, 34, 34);
+}
+.h3php{
+    margin-top: 13px;
+    font-family: 'Cairo', sans-serif;
+    border-bottom: 2px solid rgb(255, 78, 78);
+    padding: 0 110px;
+    
+}
+.icon:hover{
+    width: 8vh;
+    height: 8vh;
+    cursor: pointer;
+    border-bottom: 2px solid rgb(8, 255, 28);
+}
+.mainright{
+    width: 70%;
+    height: 400px;
+    animation-name: nana;
+    animation-duration: 5s;
+   animation-iteration-count: infinite;
+   display: flex;
+
+   justify-content: center;
+   align-items: center;
+}
+@keyframes nana{
+    0%{ 
+        background-color: rgb(255, 85, 85);
+    }
+    25%{ 
+        background-color: rgb(255, 180, 68);
+    }
+    50%{ 
+        background-color: rgb(255, 242, 67);
+    }
+    75%{ 
+        background-color: rgb(187, 255, 98);
+    }
+    100%{ 
+        background-color: rgb(166, 255, 181);
+    }  
+}
+.main2{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.div1{
+display: flex;
+    flex-direction: row;
+  justify-content: space-between;
+}
+.div2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+.java{
+    height: 200px;
+    width: 350px;
+margin: 10px 15px;
+}
+.mainrichat{
+    width: 40%;
+    height: 30%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.imgmain{
+    width: 100px;
+    height: 100px; 
+}
